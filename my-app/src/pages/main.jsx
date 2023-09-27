@@ -13,16 +13,13 @@ export default function Main() {
   ///
   const firstHandler = (event) => {
     state.firstNumber = event.target.value;
-
-    console.log(state.firstNumber + "--" + state.secondNumber);
+    console.log(event.target.value);
   };
 
   /////
 
   const secondHandler = (event) => {
     state.secondNumber = event.target.value;
-
-    console.log(state.firstNumber + "--" + state.secondNumber);
   };
 
   //////////////
